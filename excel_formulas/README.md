@@ -1,17 +1,25 @@
-# Excel Formula Logic Used
+# Excel Sales Analysis
 
-## Average Sales by State and Product
-Function used: AVERAGEIFS  
-Purpose: Calculate average sales amount for each product across different states.
+This project demonstrates sales data analysis using Excel conditional formulas.
 
-## Total Quantity Sold by Region and Product
-Function used: SUMIFS  
-Purpose: Calculate total quantity sold per product in each region.
+## Excel Functions Used
+- COUNTIF / COUNTIFS
+- SUMIF / SUMIFS
+- AVERAGEIF / AVERAGEIFS
+- MAXIFS
 
-## Total Transactions by State and Product Category
-Function used: COUNTIFS  
-Purpose: Count the number of transactions by state and product category.
+## Analysis Performed
+- Average sales by state and product
+- Total quantity sold by region and product
+- Transaction count by state and product category
+- Maximum sales by city
 
-## Max Sales by City
-Function used: MAXIFS  
-Purpose: Identify the highest single sales value for each city.
+## Repository Structure
+- data/ → raw sales dataset
+- screenshots/ → Excel formula output screenshots
+- excel_formulas/ → explanation of Excel formula logic
+
+## Skills Demonstrated
+- Data cleaning
+- Conditional aggregation in Excel
+- Business-oriented data analysis
